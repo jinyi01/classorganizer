@@ -11,5 +11,5 @@ class Division:
 
     def add_student(self, student):
         if len(self.student_list) >= self.size:
-            return False
+            return student
         self.student_list.append(student)
